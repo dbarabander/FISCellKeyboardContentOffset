@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FISCellKeyboardContentOffset', :exclusive => true do
+  pod "FISCellKeyboardContentOffset", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "FISCellKeyboardContentOffset", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
